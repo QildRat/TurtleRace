@@ -25,7 +25,7 @@ screen_y = 400
 screen_margin = 50
 screen.setup(width=screen_x, height=screen_y)
 
-user_choice = screen.textinput("Make your bet", "choose turtle color: \n(red/orange/blue/violet/green)")
+user_choice = screen.textinput("Make your bet", "what color of turtle will win? \n(red/orange/blue/violet/green)")
 
 position = (-100, -50, 0, 50, 100)
 
