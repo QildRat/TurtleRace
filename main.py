@@ -15,7 +15,8 @@ def finish_line(x, y, margin):
     f_line.pendown()
     f_line.forward(y - margin * 2)
 
-    return f_line.xcor()
+    turtle_size = 40 / 2    # prevent turtle overlapped before winning. win when touches the line.
+    return f_line.xcor() - turtle_size
 
 
 # -------------------------------------------
